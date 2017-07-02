@@ -1,0 +1,226 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "additionalProperties": false,
+    "definitions": {},
+    "id": "http://example.com/example.json",
+    "properties": {
+        "alliance": {
+            "id": "/properties/alliance",
+            "type": "string"
+        },
+        "alliances": {
+            "id": "/properties/alliances",
+            "type": "null"
+        },
+        "cat": {
+            "id": "/properties/cat",
+            "type": "integer"
+        },
+        "continent": {
+            "id": "/properties/continent",
+            "type": "string"
+        },
+        "country": {
+            "id": "/properties/country",
+            "type": "string"
+        },
+        "cover": {
+            "id": "/properties/cover",
+            "type": "string"
+        },
+        "ct": {
+            "id": "/properties/ct",
+            "type": "integer"
+        },
+        "customerServiceLine": {
+            "id": "/properties/customerServiceLine",
+            "type": "string"
+        },
+        "desc": {
+            "id": "/properties/desc",
+            "type": "string"
+        },
+        "email": {
+            "id": "/properties/email",
+            "type": "string"
+        },
+        "fromApp": {
+            "id": "/properties/fromApp",
+            "type": "integer"
+        },
+        "fromChannel": {
+            "id": "/properties/fromChannel",
+            "type": "string"
+        },
+        "gender": {
+            "id": "/properties/gender",
+            "type": "integer"
+        },
+        "icon": {
+            "id": "/properties/icon",
+            "type": "string"
+        },
+        "id": {
+            "id": "/properties/id",
+            "type": "integer"
+        },
+        "inAlliance": {
+            "id": "/properties/inAlliance",
+            "type": "boolean"
+        },
+        "inOrg": {
+            "id": "/properties/inOrg",
+            "type": "boolean"
+        },
+        "industry": {
+            "id": "/properties/industry",
+            "type": "string"
+        },
+        "isAdmin": {
+            "id": "/properties/isAdmin",
+            "type": "boolean"
+        },
+        "isCnMob": {
+            "id": "/properties/isCnMob",
+            "type": "boolean"
+        },
+        "isub": {
+            "id": "/properties/isub",
+            "type": "string"
+        },
+        "mcode": {
+            "id": "/properties/mcode",
+            "type": "string"
+        },
+        "mobile": {
+            "id": "/properties/mobile",
+            "type": "string"
+        },
+        "msgAuth": {
+            "id": "/properties/msgAuth",
+            "type": "integer"
+        },
+        "name": {
+            "id": "/properties/name",
+            "type": "string"
+        },
+        "nick": {
+            "id": "/properties/nick",
+            "type": "string"
+        },
+        "oaLoginName": {
+            "id": "/properties/oaLoginName",
+            "type": "string"
+        },
+        "org": {
+            "id": "/properties/org",
+            "type": "string"
+        },
+        "orgs": {
+            "id": "/properties/orgs",
+            "type": "null"
+        },
+        "passwdSetting": {
+            "id": "/properties/passwdSetting",
+            "type": "boolean"
+        },
+        "platform": {
+            "id": "/properties/platform",
+            "type": "integer"
+        },
+        "privacy": {
+            "id": "/properties/privacy",
+            "type": "integer"
+        },
+        "push": {
+            "id": "/properties/push",
+            "type": "boolean"
+        },
+        "status": {
+            "id": "/properties/status",
+            "type": "integer"
+        },
+        "thirdParty": {
+            "additionalProperties": false,
+            "id": "/properties/thirdParty",
+            "properties": {
+                "mobile": {
+                    "id": "/properties/thirdParty/properties/mobile",
+                    "type": "boolean"
+                },
+                "weixin": {
+                    "id": "/properties/thirdParty/properties/weixin",
+                    "type": "boolean"
+                }
+            },
+            "required": [
+                "mobile",
+                "weixin"
+            ],
+            "type": "object"
+        },
+        "title": {
+            "id": "/properties/title",
+            "type": "string"
+        },
+        "tp": {
+            "id": "/properties/tp",
+            "type": "integer"
+        },
+        "txt": {
+            "id": "/properties/txt",
+            "type": "string"
+        },
+        "userJobs": {
+            "id": "/properties/userJobs",
+            "type": "null"
+        },
+        "v": {
+            "id": "/properties/v",
+            "type": "integer"
+        }
+    },
+    "required": [
+        "alliance",
+        "customerServiceLine",
+        "inAlliance",
+        "platform",
+        "alliances",
+        "id",
+        "ct",
+        "txt",
+        "title",
+        "tp",
+        "continent",
+        "nick",
+        "isAdmin",
+        "desc",
+        "email",
+        "status",
+        "inOrg",
+        "fromApp",
+        "isCnMob",
+        "org",
+        "oaLoginName",
+        "icon",
+        "isub",
+        "thirdParty",
+        "name",
+        "mcode",
+        "mobile",
+        "gender",
+        "industry",
+        "privacy",
+        "cover",
+        "cat",
+        "userJobs",
+        "fromChannel",
+        "v",
+        "push",
+        "orgs",
+        "country",
+        "msgAuth",
+        "passwdSetting"
+    ],
+    "type": "object"
+}

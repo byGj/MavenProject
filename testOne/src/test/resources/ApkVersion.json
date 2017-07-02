@@ -1,0 +1,42 @@
+
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {},
+    "id": "http://example.com/example.json",
+    "properties": {
+        "ct": {
+            "id": "/properties/ct",
+            "type": "integer"
+        },
+        "description": {
+            "id": "/properties/description",
+            "type": "string"
+        },
+        "id": {
+            "id": "/properties/id",
+            "type": "string"
+        },
+        "mt": {
+            "id": "/properties/mt",
+            "type": "integer"
+        },
+        "status": {
+            "id": "/properties/status",
+            "type": "boolean"
+        },
+        "url": {
+            "id": "/properties/url",
+            "type": "string"
+        },
+        "versioncode": {
+            "id": "/properties/versioncode",
+            "type": "integer"
+        },
+        "versionname": {
+            "id": "/properties/versionname",
+            "type": "string"
+        }
+    },
+    "type": "object",
+    "required":["ct", "description", "id", "mt", "status", "url", "versioncode", "versionname"]
+}
